@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navigation {
+    float: right;
+}
+
+.logo-icon img {
+    float: left;
+}
+
+main {
+    clear: both;
+}
+
+.logo-icon {
+    float: left;
+    width: 300px;
+    margin: 20px;
+}
+
+h1 {
+    margin: -8px;
+    padding-left: 70px;
+}
+
+.logo-icon p {
+    text-align: left;
+    margin: 8px;
+    padding-left: 60px;
+}
+
+.navigation li {
+    display: inline-block;
+
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+    text-decoration: none;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.navii {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: dimgrey;
+    margin-right: 20px;
+
+}
+
+
+.navii a:hover {
+    color: white;
+    background-color: mediumaquamarine;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#home {
+    background-image: url(lid/fotofon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+#portfolio {
+
+    text-align: center;
+}
+
+.port-menu li {
+    display: inline-block;
+}
+
+
+#home h2 {
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+#home p {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding-top: -20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #02ac72
+}
+
+.scroll {
+    display: inline-block;
+    padding-top: 30px;
+    color: white;
+}
+
+#portfolio h2 {
+    padding: 40px;
+}
+
+.items {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.port-p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.port-menu {
+    text-decoration: none;
+}
+
+.port-menu li {
+    display: inline-block;
+
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.items li {
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+
+}
+
+.items a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    height: 180px;
+    background: hsla(160, 92%, 36%, 0.49);
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    opacity: 0;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.items li:hover a {
+    opacity: 1;
+    transition: all 0.2s ease 0.01s;
+}
+
+.items i {
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+
+#about-team {
+    text-align: center;
+    clear: both;
+    background-color: mediumaquamarine;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#about-team h2 {
+    padding: 40px;
+    color: white;
+}
+
+.aboutteam {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.team-list > li {
+    margin-left: 40px;
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    position: relative;
+    
+}
+
+#contact {
+    background-color: #ecf0f1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contact h2 {
+    padding: 40px;
+}
+
+#contact p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+
+.col1 {
+    float: left;
+}
+
+.col2 {
+    float: right;
+}
+
+footer {
+    clear: both;
+    color: white;
+    padding: 20px;
+    background-color: #2d3e50;
+}
+
+.arr {
+    margin-top: -15px;
+    padding: 0px;
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+    background-color: mediumaquamarine;
+    color: white;
+}
+
+.social {
+    display: block;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    box-sizing: border-box;
+    padding-top: 30px;
+    top: 220px;
+    left: 0;
+    right: 0
+}
+
+.social ul {
+    background: hsla(160, 92%, 36%, 0.49);
+    display: inline-block;
+}
+
+.team-list > li:hover .social{
+    opacity: 1;
+    transition: all 0.35s ease 0.01s;
+}
+
+.social li {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    
+}
+
+.social a{
+    color: rgba(190, 190, 190, 0.63);
+}
+
+.social a:hover {
+    opacity: 1;
+    color: white;
+    transition: all 0.1s ease 0.01s;
+}
+
+
+textarea{
+    margin-top: 10px;
+}
